@@ -39,8 +39,8 @@ const App = () => {
 			<Container className="app">
 				<h1>Smurfs 'N Stuff with Redux</h1>
 				<SmurfsForm />
-        <SmurfsList />
-      </Container>
+				<SmurfsList />
+			</Container>
 		</SmurfContext.Provider>
 	);
 };

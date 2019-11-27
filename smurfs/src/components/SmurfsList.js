@@ -10,10 +10,10 @@ const SmurfsList = props => {
 
 	return (
 		<Container className="smurfsList">
-        <Container>
-        <h2>The Residents of Smurftown</h2>
-        </Container>
-        {smurfs && smurfs.map(smurf => <Smurfs key={smurf.id} smurf={smurf} deleteSmurf={deleteSmurf} />)}
+			<Container>
+				<h2>The Residents of Smurftown</h2>
+			</Container>
+        	{smurfs && smurfs.map(smurf => <Smurfs key={smurf.id} smurf={smurf} deleteSmurf={deleteSmurf} />)}
 		</Container>
 	);
 };
